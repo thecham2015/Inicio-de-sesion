@@ -1,21 +1,2 @@
 # Inicio-de-sesion
 
-/* Narrow the login form, size according to display size (bigger on mobile) */
-#loginPage .readOnlyContent,
-#loginPage form {
-    max-width: 22em;
-}
-
-/* Hide "please login" text, margin is to prevent login form moving too far up */
-#loginPage h1 {
-    display: none;
-}
-
-#loginPage .padded-left.padded-right.padded-bottom-page {
-    margin-top: 8em;
-}
-
-/* Hide "manual" and "forgot" buttons */
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-    display: none;
-}
